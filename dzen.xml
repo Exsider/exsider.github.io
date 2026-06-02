@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Тестовая лента для Дзена</title>
+    <link>https://exsider.github.io/dzen-rss-test/</link>
+    <description>Минимальный тестовый RSS/XML-фид для проверки импорта в Дзен</description>
+    <language>ru</language>
+
+    <item>
+      <title>Тестовая статья для импорта в Дзен</title>
+      <link>https://exsider.github.io/dzen-rss-test/test-article-1.html</link>
+      <guid isPermaLink="false">dzen-test-article-1</guid>
+      <pubDate>Tue, 02 Jun 2026 04:08:14 +0300</pubDate>
+      <description>Это короткое описание тестовой статьи для проверки RSS/XML-синхронизации.</description>
+
+      <media:content url="https://picsum.photos/1200/675" medium="image" />
+
+      <content:encoded><![CDATA[
+        <p>Это тестовая статья для проверки импорта в Дзен через RSS/XML.</p>
+        <p>Если Дзен увидит эту запись, значит базовая схема работает: статичный XML-файл лежит на GitHub Pages, а синхронизатор может забрать из него публикацию.</p>
+        <p>Дальше вместо этого тестового текста можно будет подставлять реальные статьи после парсинга, перевода и рерайта.</p>
+      ]]></content:encoded>
+    </item>
+  </channel>
+</rss>
